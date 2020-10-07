@@ -22,17 +22,17 @@ namespace Kettle
             var capacity = new CapacityUnit(100);
             var utensil = new Utensil("Kettle", capacity);
             var boiler = new Boiler("Кипятильник");
-            
+
             regularKettle.Utensil = utensil;
             regularKettle.Boiler = boiler;
             regularKettle.WorksOn = energies;
-            
+
             electricKettle.Utensil = utensil;
             electricKettle.Boiler = boiler;
             electricKettle.WorksOn = energies;
 
-            var runner = new Runner.Runner(liquidProvider, energyProvider, regularKettle);
-            
+            var regularKettleRunner = new Runner.Runner(liquidProvider, energyProvider, regularKettle);
+            var electricKettleRunner = new Runner.Runner(liquidProvider, energyProvider, electricKettle);
         }
     }
 

@@ -9,29 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c9c92d6-9005-4539-84c8-f5433330c0c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kettle.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kettle.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/Boiler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/CapacityUnit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/ElectricKettle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/IBoiler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/IElectricKettle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/IKettle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/RegularKettle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/Size.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KettleItself/Utensil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/EnergySupplement/Energy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/EnergySupplement/EnergyProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/EnergySupplement/IEnergy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/EnergySupplement/IEnergyProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/LiquidSupplement/ILiquid.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/LiquidSupplement/ILiquidProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/LiquidSupplement/Liquid.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Providers/LiquidSupplement/LiquidProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Runner/IRunner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Runner/Runner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kettle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kettle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KettleItself/Boiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KettleItself/Boiler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KettleItself/ElectricKettle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KettleItself/ElectricKettle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KettleItself/IElectricKettle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KettleItself/IElectricKettle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KettleItself/IKettle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KettleItself/IKettle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KettleItself/RegularKettle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KettleItself/RegularKettle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/IRunner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/IRunner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner/Runner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/Runner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +30,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Runner/IRunner.cs" />
         <option value="$PROJECT_DIR$/Kettle/Size.cs" />
         <option value="$PROJECT_DIR$/Kettle/Utensil.cs" />
         <option value="$PROJECT_DIR$/Kettle/IBoiler.cs" />
@@ -67,14 +52,15 @@
         <option value="$PROJECT_DIR$/Providers/EnergySupplement/Energy.cs" />
         <option value="$PROJECT_DIR$/KettleItself/Size.cs" />
         <option value="$PROJECT_DIR$/KettleItself/Utensil.cs" />
-        <option value="$PROJECT_DIR$/KettleItself/IKettle.cs" />
         <option value="$PROJECT_DIR$/KettleItself/CapacityUnit.cs" />
-        <option value="$PROJECT_DIR$/Runner/Runner.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
-        <option value="$PROJECT_DIR$/KettleItself/RegularKettle.cs" />
-        <option value="$PROJECT_DIR$/KettleItself/IElectricKettle.cs" />
-        <option value="$PROJECT_DIR$/KettleItself/ElectricKettle.cs" />
         <option value="$PROJECT_DIR$/KettleItself/Boiler.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/KettleItself/IKettle.cs" />
+        <option value="$PROJECT_DIR$/KettleItself/RegularKettle.cs" />
+        <option value="$PROJECT_DIR$/Runner/IRunner.cs" />
+        <option value="$PROJECT_DIR$/Runner/Runner.cs" />
+        <option value="$PROJECT_DIR$/KettleItself/ElectricKettle.cs" />
+        <option value="$PROJECT_DIR$/KettleItself/IElectricKettle.cs" />
       </list>
     </option>
   </component>
@@ -119,13 +105,16 @@
       <option name="presentableId" value="Default" />
       <updated>1601880321014</updated>
       <workItem from="1601880331384" duration="15191000" />
+      <workItem from="1601909347651" duration="845000" />
+      <workItem from="1601985180966" duration="1410000" />
+      <workItem from="1602056826109" duration="2577000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -146,5 +136,9 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="738" y="174" width="423" height="767" key="RiderGenerateDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1601882337223" />
+    <state x="100" y="140" width="1720" height="841" key="VCS.FileHistoryDialog" timestamp="1602059808340">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="100" y="140" width="1720" height="841" key="VCS.FileHistoryDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1602059808340" />
   </component>
 </project>

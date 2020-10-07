@@ -28,9 +28,21 @@ namespace Kettle.Runner
             _liquid = LiquidProvider.GetLiquid();
         }
 
-        public void BoilWater()
+        public void BoilWater(CapacityUnit capacity)
         {
-            
+            if (_liquid == null) throw new System.ArgumentNullException("Liquid", "Cannot find liquid");
+            if (_energy == null) throw new System.ArgumentNullException("Liquid", "Cannot find energy");
+            if (Kettle.GetType() == typeof(RegularKettle))
+            {
+                Kettle.Prepare();
+                Kettle.Fill(_liquid, capacity);
+                Kettle.Boil();
+            }
+            else
+            {
+                Kettle.Fill(_liquid, capacity);
+                Kettle.Boil();
+            }
         }
     }
 }

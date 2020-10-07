@@ -5,8 +5,8 @@ namespace Kettle.KettleItself
     public class Boiler : IBoiler
     {
         private string Name { get; }
-        public bool IsPlugged { get; }
-        private Utensil? Utensil { get; set; }
+        public bool IsPlugged { get; set; }
+        private Utensil Utensil { get; set; }
 
         public Boiler(string name)
         {
@@ -26,7 +26,7 @@ namespace Kettle.KettleItself
 
         public void UnPlug()
         {
-            
+            IsPlugged = false;
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Kettle.KettleItself
     public class ElectricKettle : RegularKettle, IElectricKettle
     {
         private bool IsOn { get; set; }
-        public void TurnOn(IEnergy energy)
+        public override void Prepare()
         {
             Boiler.Plug();
             Boiler.PutInto(Utensil);
@@ -18,13 +18,6 @@ namespace Kettle.KettleItself
         {
             Console.WriteLine("Electric Kettle turned off...");
             Boiler.UnPlug();
-        }
-
-
-        public override void PourOut()
-        {
-            base.PourOut();
-            
         }
     }
 }

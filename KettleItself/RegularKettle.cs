@@ -8,11 +8,15 @@ namespace Kettle.KettleItself
 {
     public class RegularKettle : IKettle
     {
-        public string KettleType { get; set; }
         protected CapacityUnit LiquidLevel { get; set; }
         public Utensil Utensil { get; set; }
         public Boiler Boiler { get; set; }
         public List<IEnergy> WorksOn { get; set; }
+
+        public virtual void Prepare()
+        {
+            Boiler.PutInto(Utensil);
+        }
 
         public void Fill(ILiquid liquid, CapacityUnit capacity)
         {
